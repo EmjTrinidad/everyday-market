@@ -4,16 +4,13 @@ import { CategoryMenuItemComponent } from './category-menu-item/category-menu-it
 import { CategoryMenuComponent } from './category-menu/category-menu.component';
 import { ProductsPageComponent } from './products-page/products-page.component';
 
-
-
 @NgModule({
-  declarations: [
+  imports: [
+    CommonModule,
     CategoryMenuItemComponent,
     CategoryMenuComponent,
     ProductsPageComponent
   ],
-  imports: [
-    CommonModule
-  ]
+  exports: [ProductsPageComponent]
 })
 export class MarketModule { }
