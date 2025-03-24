@@ -14,9 +14,8 @@ export class CategoriesService {
       { name: 'Fruits' },
       { name: 'Meat' },
       { name: 'Fish' },
-      { name: 'Seafood' },
       { name: 'Drinks' },
-      { name: 'Dessert' }
+      { name: 'Snacks' }
     ];
   }
 }
